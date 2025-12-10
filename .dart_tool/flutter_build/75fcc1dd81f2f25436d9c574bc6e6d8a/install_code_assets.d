@@ -1,0 +1,1 @@
+ /Users/dimi/Documents/programming-projects/flutter-profile-card/.dart_tool/flutter_build/75fcc1dd81f2f25436d9c574bc6e6d8a/native_assets.json: 
