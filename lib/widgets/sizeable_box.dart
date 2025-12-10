@@ -14,7 +14,14 @@ class SizeableBox extends StatelessWidget {
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.onSurface,
         borderRadius: BorderRadius.circular(40),
-      )
+        boxShadow: [
+          BoxShadow(
+            color: Theme.of(context).colorScheme.onSurface,
+            blurRadius: 10,
+            spreadRadius: 3,
+          ),
+        ],
+      ),
     );
   }
 }
