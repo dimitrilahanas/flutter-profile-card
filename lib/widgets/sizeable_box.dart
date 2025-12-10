@@ -16,13 +16,6 @@ class SizeableBox extends StatelessWidget {
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(40),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black,
-            blurRadius: 10,
-            spreadRadius: 3,
-          ),
-        ],
       ),
       child: child,
     );
