@@ -2,12 +2,18 @@ import 'package:flutter/material.dart';
 
 class LDTheme {
   static ThemeData lightTheme = ThemeData(
-    brightness: Brightness.light,
-    scaffoldBackgroundColor: Colors.white,
+    colorScheme: ColorScheme.fromSeed(
+      brightness: Brightness.light,
+      seedColor: Colors.blue,
+      surface: Colors.white,
+    ),
   );
 
   static ThemeData darkTheme = ThemeData(
-    brightness: Brightness.dark,
-    scaffoldBackgroundColor: Colors.black,
+    colorScheme: ColorScheme.fromSeed(
+      brightness: Brightness.dark,
+      seedColor: Colors.blue,
+      surface: Colors.black,
+    ),
   );
 }
