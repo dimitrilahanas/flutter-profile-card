@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class SizeableBox extends StatelessWidget {
   final double width;
   final double height;
+  final Widget? child;
 
-  const SizeableBox(this.width, this.height, {super.key});
+  const SizeableBox(this.width, this.height, this.child, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +23,7 @@ class SizeableBox extends StatelessWidget {
           ),
         ],
       ),
+      child: child,
     );
   }
 }
