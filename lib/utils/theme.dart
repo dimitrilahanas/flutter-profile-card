@@ -4,13 +4,13 @@ class LDTheme {
   static ThemeData lightTheme = ThemeData(
     colorScheme: ColorScheme(
       brightness: Brightness.light,
-      primary: Colors.black,
+      primary: Color(0xFF181818),
       onPrimary: Colors.white,
       secondary: Color(0xFF181818),
       onSecondary: Colors.white,
       error: Colors.blue,
       onError: Colors.red,
-      surface: Colors.white,
+      surface: Color(0xFFd9d9d9),
       onSurface: Colors.black,
     ),
   );
@@ -24,7 +24,7 @@ class LDTheme {
       onSecondary: Colors.black,
       error: Colors.red,
       onError: Colors.blue,
-      surface: Colors.black, 
+      surface: Color(0xFF181818), 
       onSurface: Colors.white,
     ),
   );

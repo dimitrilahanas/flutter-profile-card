@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
                   padding: EdgeInsets.only(top: 10),
                   child: SizeableBox(
                     330,
-                    180,
+                    170,
                     Theme.of(context).colorScheme.secondary,
                     ClipRRect(
                       borderRadius: BorderRadius.circular(40),
@@ -36,10 +36,10 @@ class Home extends StatelessWidget {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Padding(
-                  padding: EdgeInsets.only(bottom: 50, left: 30),
+                  padding: EdgeInsets.only(bottom: 50, left: 40),
                   child: SizeableCircle(
-                    100,
-                    100,
+                    80,
+                    80,
                     ClipRRect(
                       borderRadius: BorderRadius.circular(100),
                       child: Image(
