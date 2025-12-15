@@ -64,6 +64,23 @@ class Home extends StatelessWidget {
                 ),
               ),
 
+              // Name
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: EdgeInsets.only(top: 80, left: 35),
+                  child: Text(
+                    'Dimitrios Lahanas', 
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimary,
+                      fontWeight: FontWeight.w700,
+                      letterSpacing: -0.5,
+                      fontSize: 20,
+                      )
+                      ),
+                ),
+              ),
+
             ],
           ),
         ),
