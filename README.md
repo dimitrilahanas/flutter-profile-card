@@ -4,4 +4,8 @@
 A simple Flutter profile card app focused on clean UI and layout fundamentals.
 
 ## Features
-e
+- Sizeable circle widget
+- Sizeable rectangle widget
+- Light and Dark mode theme
+- Activity widget
+- Name widget
