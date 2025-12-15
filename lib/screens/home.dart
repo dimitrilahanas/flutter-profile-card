@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/sizeable_box.dart';
 import '../widgets/sizeable_circle.dart';
+import '../widgets/status.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -15,7 +16,7 @@ class Home extends StatelessWidget {
           Theme.of(context).colorScheme.primary,
           Stack(
             children: [
-              
+
               // Banner Widget
               Align(
                 alignment: Alignment.topCenter,
@@ -54,6 +55,16 @@ class Home extends StatelessWidget {
                   ),
                 ),
               ),
+
+              // Status Widget
+              Align(
+                alignment: Alignment.topCenter,
+                child: Padding(
+                  padding: EdgeInsets.only(top: 10),
+                  child: Status(),
+                ),
+              ),
+
             ],
           ),
         ),
