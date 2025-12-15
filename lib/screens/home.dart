@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/sizeable_box.dart';
+import '../widgets/sizeable_circle.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -32,6 +33,13 @@ class Home extends StatelessWidget {
                   ),
                 ),
               ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: EdgeInsets.only(bottom: 50, left: 30),
+                  child: SizeableCircle(100, 100),
+                )
+              )
             ],
           ),
         ),
