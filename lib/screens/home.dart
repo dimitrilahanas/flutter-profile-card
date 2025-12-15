@@ -15,6 +15,8 @@ class Home extends StatelessWidget {
           Theme.of(context).colorScheme.primary,
           Stack(
             children: [
+              
+              // Banner Widget
               Align(
                 alignment: Alignment.topCenter,
                 child: Padding(
@@ -33,6 +35,8 @@ class Home extends StatelessWidget {
                   ),
                 ),
               ),
+
+              // Profile Widget
               Align(
                 alignment: Alignment.centerLeft,
                 child: Padding(
