@@ -16,15 +16,14 @@ class Home extends StatelessWidget {
           Theme.of(context).colorScheme.primary,
           Stack(
             children: [
-
               // Banner Widget
               Align(
                 alignment: Alignment.topCenter,
                 child: Padding(
-                  padding: EdgeInsets.only(top: 10),
+                  padding: EdgeInsets.only(top: 20),
                   child: SizeableBox(
-                    330,
-                    170,
+                    310,
+                    150,
                     Theme.of(context).colorScheme.secondary,
                     ClipRRect(
                       borderRadius: BorderRadius.circular(40),
@@ -41,7 +40,7 @@ class Home extends StatelessWidget {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Padding(
-                  padding: EdgeInsets.only(bottom: 50, left: 40),
+                  padding: EdgeInsets.only(bottom: 70, left: 45),
                   child: SizeableCircle(
                     80,
                     80,
@@ -58,9 +57,9 @@ class Home extends StatelessWidget {
 
               // Status Widget
               Align(
-                alignment: Alignment.topCenter,
+                alignment: Alignment.centerRight,
                 child: Padding(
-                  padding: EdgeInsets.only(top: 10),
+                  padding: EdgeInsets.only(bottom: 60, right: 40),
                   child: Status(),
                 ),
               ),
