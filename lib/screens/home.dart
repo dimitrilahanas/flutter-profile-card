@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(40),
                       child: Image(
-                        image: AssetImage('assets/car.JPG'),
+                        image: AssetImage('assets/banner.JPG'),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -37,9 +37,19 @@ class Home extends StatelessWidget {
                 alignment: Alignment.centerLeft,
                 child: Padding(
                   padding: EdgeInsets.only(bottom: 50, left: 30),
-                  child: SizeableCircle(100, 100),
-                )
-              )
+                  child: SizeableCircle(
+                    100,
+                    100,
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(100),
+                      child: Image(
+                        image: AssetImage('assets/me.JPG'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
