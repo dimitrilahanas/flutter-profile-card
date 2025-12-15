@@ -81,6 +81,23 @@ class Home extends StatelessWidget {
                 ),
               ),
 
+              // Occupation
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: EdgeInsets.only(top: 140, left: 35),
+                  child: Text(
+                    'University Student', 
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimary,
+                      fontWeight: FontWeight.w300,
+                      letterSpacing: -0.5,
+                      fontSize: 17,
+                      )
+                      ),
+                ),
+              ),
+
             ],
           ),
         ),
