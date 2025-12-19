@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/sizeable_box.dart';
 import '../widgets/sizeable_circle.dart';
 import '../widgets/status.dart';
+import '../widgets/contact_btn.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -97,6 +98,30 @@ class Home extends StatelessWidget {
                       ),
                 ),
               ),
+
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: EdgeInsets.only(top: 190, left: 35),
+                  child: Text(
+                    'Bachelor of Computer Science (Honours)', 
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimary,
+                      fontWeight: FontWeight.w200,
+                      letterSpacing: -0.5,
+                      fontSize: 13,
+                      )
+                      ),
+                ),
+              ),
+
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Padding(
+                  padding: EdgeInsets.only(bottom: 25),
+                  child: ContactBtn(),
+                )
+              )
 
             ],
           ),
