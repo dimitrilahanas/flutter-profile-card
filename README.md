@@ -11,5 +11,7 @@ A simple Flutter profile card app focused on clean UI and layout fundamentals.
 - Name widget
 
 ## What it Looks Like
-![light mode](2.png)
-![dark mode](1.png)
+<p align="center">
+  <img src="2.png" alt="Light mode" width="250"/>
+  <img src="1.png" alt="Dark mode" width="250"/>
+</p>
