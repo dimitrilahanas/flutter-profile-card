@@ -9,6 +9,7 @@ A simple Flutter profile card app focused on clean UI and layout fundamentals.
 - Light and Dark mode theme
 - Activity widget
 - Name widget
+- Contact button (only front end)
 
 ## What it Looks Like
 <p align="center">
