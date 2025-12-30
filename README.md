@@ -1,4 +1,7 @@
 # Flutter-Profile-Card
+⚠️ **Note:** This project is for **learning purposes**.  
+I created it while learning Flutter, so the code may be messy or not follow best practices.  
+Use it as a reference for my learning journey, not as production-ready code.
 
 ## Overview
 A simple Flutter profile card app focused on clean UI and layout fundamentals.
